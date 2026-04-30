@@ -1,62 +1,602 @@
 [
   {
     "id": 1,
-    "text": "Quanto é 15 × 4?",
-    "options": ["45", "60", "50", "55"],
-    "correct": "60"
+    "text": "Uma pizza foi dividida em 8 pedaços. Que fração representa um pedaço?",
+    "options": ["1/4", "1/8", "1/2", "1/6"],
+    "correct": "1/8"
   },
   {
     "id": 2,
-    "text": "Qual destes é um verbo?",
-    "options": ["Casa", "Correr", "Bonito", "Lentamente"],
-    "correct": "Correr"
+    "text": "Quantas fatias correspondem a 3/8 de uma pizza dividida em 8 pedaços?",
+    "options": ["2", "3", "4", "5"],
+    "correct": "3"
   },
   {
     "id": 3,
-    "text": "Quem escreveu 'Dom Casmurro'?",
-    "options": ["José de Alencar", "Machado de Assis", "Carlos Drummond", "Monteiro Lobato"],
-    "correct": "Machado de Assis"
+    "text": "Na reta numérica, entre 0 e 1 dividido em 8 partes, onde está localizado 5/8?",
+    "options": ["Antes da metade", "Depois da metade", "No zero", "No 1"],
+    "correct": "Depois da metade"
   },
   {
     "id": 4,
-    "text": "Qual a capital do Brasil?",
-    "options": ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
-    "correct": "Brasília"
+    "text": "Qual é o resultado de 8/8?",
+    "options": ["0", "1/2", "1", "2"],
+    "correct": "1"
   },
   {
     "id": 5,
-    "text": "O que é fotossíntese?",
-    "options": ["Respiração vegetal", "Produção de alimento pelas plantas", "Reprodução das plantas", "Absorção de água"],
-    "correct": "Produção de alimento pelas plantas"
+    "text": "Se comemos 1 fatia de uma pizza de 8 fatias, que fração representa o que sobrou?",
+    "options": ["1/8", "7/8", "8/8", "2/8"],
+    "correct": "7/8"
   },
   {
     "id": 6,
-    "text": "Complete: 'Eu _____ feliz ontem'.",
-    "options": ["estive", "estava", "fui", "sou"],
-    "correct": "estive"
+    "text": "Como representamos uma dívida de 21 reais como número?",
+    "options": ["+21", "-21", "21/1", "1/21"],
+    "correct": "-21"
   },
   {
     "id": 7,
-    "text": "Quanto é 100 ÷ 4?",
-    "options": ["20", "25", "30", "40"],
-    "correct": "25"
+    "text": "O que significa a fração -1/8 na reta numérica?",
+    "options": ["Divisão do 1 em 8 partes", "Divisão do -1 em 8 partes", "Multiplicação", "Soma"],
+    "correct": "Divisão do -1 em 8 partes"
   },
   {
     "id": 8,
-    "text": "Qual a camada mais externa da Terra?",
-    "options": ["Manto", "Núcleo", "Crosta", "Litosfera"],
-    "correct": "Crosta"
+    "text": "Qual é a fração equivalente a -3/5?",
+    "options": ["3/-5", "-3/-5", "3/5", "-5/3"],
+    "correct": "3/-5"
   },
   {
     "id": 9,
-    "text": "Quem pintou a Mona Lisa?",
-    "options": ["Van Gogh", "Picasso", "Da Vinci", "Monet"],
-    "correct": "Da Vinci"
+    "text": "O que significa simplificar uma fração?",
+    "options": ["Multiplicar numerador e denominador", "Dividir numerador e denominador pelo mesmo número", "Somar numerador e denominador", "Inverter a fração"],
+    "correct": "Dividir numerador e denominador pelo mesmo número"
   },
   {
     "id": 10,
-    "text": "Qual é o maior planeta do Sistema Solar?",
-    "options": ["Marte", "Saturno", "Júpiter", "Netuno"],
-    "correct": "Júpiter"
+    "text": "Qual é a forma irredutível de 4/16?",
+    "options": ["2/8", "1/4", "1/8", "2/4"],
+    "correct": "1/4"
+  },
+  {
+    "id": 11,
+    "text": "O que é MDC (Máximo Divisor Comum)?",
+    "options": ["Menor divisor comum", "Maior número que é divisor de todos os números", "Soma dos divisores", "Produto dos divisores"],
+    "correct": "Maior número que é divisor de todos os números"
+  },
+  {
+    "id": 12,
+    "text": "Comparando -1/3 e -2/3, qual é o correto?",
+    "options": ["-1/3 < -2/3", "-1/3 > -2/3", "São iguais", "Não é possível comparar"],
+    "correct": "-1/3 > -2/3"
+  },
+  {
+    "id": 13,
+    "text": "Qual fração é maior: 2/3 ou 2/11?",
+    "options": ["2/3", "2/11", "Iguais", "Depende do inteiro"],
+    "correct": "2/3"
+  },
+  {
+    "id": 14,
+    "text": "Se as frações são negativas, como 2/3 e 2/11 se comparam?",
+    "options": ["-2/3 > -2/11", "-2/3 < -2/11", "Iguais", "Não existe fração negativa"],
+    "correct": "-2/3 < -2/11"
+  },
+  {
+    "id": 15,
+    "text": "Qual é a fração equivalente a 2/3 com denominador 6?",
+    "options": ["3/6", "4/6", "5/6", "6/6"],
+    "correct": "4/6"
+  },
+  {
+    "id": 16,
+    "text": "O que significa m.m.c. (mínimo múltiplo comum)?",
+    "options": ["Menor número múltiplo de ambos", "Maior número múltiplo", "Soma dos múltiplos", "Produto dos múltiplos"],
+    "correct": "Menor número múltiplo de ambos"
+  },
+  {
+    "id": 17,
+    "text": "Qual o m.m.c. entre 12 e 30?",
+    "options": ["30", "60", "90", "120"],
+    "correct": "60"
+  },
+  {
+    "id": 18,
+    "text": "Fatorando 12 em primos, obtemos:",
+    "options": ["2×2×3", "2×6", "3×4", "2×2×2"],
+    "correct": "2×2×3"
+  },
+  {
+    "id": 19,
+    "text": "Qual fração é maior: 1/4 ou 4/16?",
+    "options": ["1/4", "4/16", "Iguais", "Não é possível comparar"],
+    "correct": "Iguais"
+  },
+  {
+    "id": 20,
+    "text": "O que é uma fração redutível?",
+    "options": ["Numerador e denominador divisíveis por um inteiro >1", "Numerador maior que denominador", "Denominador = 1", "Fração negativa"],
+    "correct": "Numerador e denominador divisíveis por um inteiro >1"
+  },
+  {
+    "id": 21,
+    "text": "Simplifique: (+12):(-3)",
+    "options": ["-4/1", "4/1", "-3/1", "3/1"],
+    "correct": "-4/1"
+  },
+  {
+    "id": 22,
+    "text": "Simplifique: (-18):(-27)",
+    "options": ["2/3", "-2/3", "3/2", "-3/2"],
+    "correct": "2/3"
+  },
+  {
+    "id": 23,
+    "text": "Simplifique: (-32):(+96)",
+    "options": ["1/3", "-1/3", "2/3", "-2/3"],
+    "correct": "-1/3"
+  },
+  {
+    "id": 24,
+    "text": "Simplifique: (+108):(-72)",
+    "options": ["3/2", "-3/2", "2/3", "-2/3"],
+    "correct": "-3/2"
+  },
+  {
+    "id": 25,
+    "text": "Se Raul fez 2/3 dos pontos e Fábio 1/2, quem fez mais?",
+    "options": ["Raul", "Fábio", "Iguais", "Não dá para saber"],
+    "correct": "Raul"
+  },
+  {
+    "id": 26,
+    "text": "O que fazer quando os denominadores são diferentes na adição de frações?",
+    "options": ["Multiplicar denominadores", "Encontrar frações equivalentes com mesmo denominador", "Somar numeradores", "Subtrair denominadores"],
+    "correct": "Encontrar frações equivalentes com mesmo denominador"
+  },
+  {
+    "id": 27,
+    "text": "Calcule: 3/8 - 1/8",
+    "options": ["4/8", "2/8", "1/8", "3/8"],
+    "correct": "2/8"
+  },
+  {
+    "id": 28,
+    "text": "Calcule: 2/5 + 11/5",
+    "options": ["9/5", "13/5", "11/5", "15/5"],
+    "correct": "13/5"
+  },
+  {
+    "id": 29,
+    "text": "Calcule: 5/9 + 11/27",
+    "options": ["16/27", "15/27", "26/27", "27/27"],
+    "correct": "26/27"
+  },
+  {
+    "id": 30,
+    "text": "O que significa o inverso de um número?",
+    "options": ["Número multiplicado por ele mesmo = 1", "Número que somado dá 1", "Número dividido por ele mesmo", "Número elevado ao quadrado"],
+    "correct": "Número multiplicado por ele mesmo = 1"
+  },
+  {
+    "id": 31,
+    "text": "Qual é o inverso de 3?",
+    "options": ["3", "1/3", "-3", "-1/3"],
+    "correct": "1/3"
+  },
+  {
+    "id": 32,
+    "text": "Qual é o inverso de -1/3?",
+    "options": ["3", "-3", "1/3", "-1/3"],
+    "correct": "-3"
+  },
+  {
+    "id": 33,
+    "text": "Calcule: 1/2 × 1/3",
+    "options": ["1/5", "1/6", "2/3", "3/2"],
+    "correct": "1/6"
+  },
+  {
+    "id": 34,
+    "text": "Calcule: 2/5 × 5/7",
+    "options": ["10/35", "10/21", "2/7", "7/10"],
+    "correct": "10/35"
+  },
+  {
+    "id": 35,
+    "text": "O que significa (1/3)²?",
+    "options": ["1/3 × 2", "1/3 × 1/3", "1/3 + 1/3", "1/3 - 1/3"],
+    "correct": "1/3 × 1/3"
+  },
+  {
+    "id": 36,
+    "text": "Calcule: (1/3)²",
+    "options": ["1/6", "1/9", "2/3", "1/3"],
+    "correct": "1/9"
+  },
+  {
+    "id": 37,
+    "text": "O que significa 2⁻⁴?",
+    "options": ["2×2×2×2", "(1/2)⁴", "-2⁴", "2⁴ negativo"],
+    "correct": "(1/2)⁴"
+  },
+  {
+    "id": 38,
+    "text": "Quanto é (-2/7)³?",
+    "options": ["-8/343", "8/343", "-8/21", "8/21"],
+    "correct": "-8/343"
+  },
+  {
+    "id": 39,
+    "text": "Qual é o valor de uma hora em fração do ciclo do relógio?",
+    "options": ["1/60", "1/12", "1/24", "1/360"],
+    "correct": "1/12"
+  },
+  {
+    "id": 40,
+    "text": "Quantos graus tem uma volta completa?",
+    "options": ["90°", "180°", "270°", "360°"],
+    "correct": "360°"
+  },
+  {
+    "id": 41,
+    "text": "Um ponteiro de segundos completa 1/60 do ciclo em quanto tempo?",
+    "options": ["1 hora", "1 minuto", "1 segundo", "1 dia"],
+    "correct": "1 segundo"
+  },
+  {
+    "id": 42,
+    "text": "Qual é o ângulo de rotação que faz um quadrado coincidir com ele mesmo?",
+    "options": ["45°", "90°", "120°", "180°"],
+    "correct": "90°"
+  },
+  {
+    "id": 43,
+    "text": "Um triângulo equilátero tem simetria de rotação de quantos graus?",
+    "options": ["60°", "90°", "120°", "180°"],
+    "correct": "120°"
+  },
+  {
+    "id": 44,
+    "text": "O que são ângulos opostos pelo vértice?",
+    "options": ["Ângulos que somam 90°", "Ângulos que somam 180°", "Ângulos com mesmo valor", "Ângulos adjacentes"],
+    "correct": "Ângulos com mesmo valor"
+  },
+  {
+    "id": 45,
+    "text": "O que são ângulos alternos internos?",
+    "options": ["Estão alternados e dentro das transversais", "Estão do mesmo lado", "São opostos", "São suplementares"],
+    "correct": "Estão alternados e dentro das transversais"
+  },
+  {
+    "id": 46,
+    "text": "Calcule: 36 - (1/3 × 36)",
+    "options": ["12", "24", "36", "48"],
+    "correct": "24"
+  },
+  {
+    "id": 47,
+    "text": "Uma receita pede 1 xícara de leite para 2 de farinha. Qual a razão leite/farinha?",
+    "options": ["1/2", "2/1", "1/3", "3/1"],
+    "correct": "1/2"
+  },
+  {
+    "id": 48,
+    "text": "Se um quadrado tem lado 2 cm, qual sua área?",
+    "options": ["2 cm²", "4 cm²", "6 cm²", "8 cm²"],
+    "correct": "4 cm²"
+  },
+  {
+    "id": 49,
+    "text": "Ampliando um quadrado de lado 2 cm para lado 4 cm, a razão lado/área original é:",
+    "options": ["1/2", "1/4", "1/8", "1/16"],
+    "correct": "1/2"
+  },
+  {
+    "id": 50,
+    "text": "Qual a metade de 2²⁰ em potência de base 2?",
+    "options": ["2¹⁰", "2¹⁹", "2¹⁸", "2²¹"],
+    "correct": "2¹⁹"
+  },
+  {
+    "id": 51,
+    "text": "Represente 1/100 como potência com expoente negativo",
+    "options": ["10⁻¹", "10⁻²", "10⁻³", "100⁻¹"],
+    "correct": "10⁻²"
+  },
+  {
+    "id": 52,
+    "text": "O que é uma rotação?",
+    "options": ["Movimento em torno de um ponto central", "Movimento em linha reta", "Ampliação", "Redução"],
+    "correct": "Movimento em torno de um ponto central"
+  },
+  {
+    "id": 53,
+    "text": "Quantos segundos tem um minuto?",
+    "options": ["30", "60", "100", "120"],
+    "correct": "60"
+  },
+  {
+    "id": 54,
+    "text": "Se um ponteiro de minutos dá uma volta, quanto tempo passou?",
+    "options": ["1 segundo", "1 minuto", "1 hora", "1 dia"],
+    "correct": "1 hora"
+  },
+  {
+    "id": 55,
+    "text": "O que significa fração como razão?",
+    "options": ["Comparar duas quantidades", "Dividir um inteiro", "Multiplicar partes", "Subtrair partes"],
+    "correct": "Comparar duas quantidades"
+  },
+  {
+    "id": 56,
+    "text": "Se 1/3 da torta foi comida e tinham 36 framboesas, quantas sobraram?",
+    "options": ["12", "18", "24", "30"],
+    "correct": "24"
+  },
+  {
+    "id": 57,
+    "text": "Calcule: 19/5 - 32/15",
+    "options": ["-13/5", "13/5", "-39/15", "39/15"],
+    "correct": "-13/5"
+  },
+  {
+    "id": 58,
+    "text": "Qual o resultado de (-4/3) : (-1/3)?",
+    "options": ["-4", "4", "1", "-1"],
+    "correct": "4"
+  },
+  {
+    "id": 59,
+    "text": "Simplify: (-28/42) - (42/28)",
+    "options": ["-1", "-2", "-3", "-4"],
+    "correct": "-2"
+  },
+  {
+    "id": 60,
+    "text": "Decomponha 330/315 em fatores primos e simplifique",
+    "options": ["22/21", "66/63", "110/105", "30/35"],
+    "correct": "22/21"
+  },
+  {
+    "id": 61,
+    "text": "Qual é o inverso de 22?",
+    "options": ["22", "1/22", "-22", "-1/22"],
+    "correct": "1/22"
+  },
+  {
+    "id": 62,
+    "text": "O inverso de -7 é maior ou menor que -7?",
+    "options": ["Maior", "Menor", "Igual", "Não existe inverso"],
+    "correct": "Maior"
+  },
+  {
+    "id": 63,
+    "text": "Calcule: (-3/5)³ × (-3/5)⁷",
+    "options": ["(-3/5)¹⁰", "(-3/5)⁴", "(-3/5)²¹", "(-3/5)²"],
+    "correct": "(-3/5)¹⁰"
+  },
+  {
+    "id": 64,
+    "text": "Calcule: (-1/10)⁸ × (-1/10)⁵",
+    "options": ["(-1/10)¹³", "(-1/10)⁴⁰", "1/10¹³", "-1/10¹³"],
+    "correct": "(-1/10)¹³"
+  },
+  {
+    "id": 65,
+    "text": "Ordene: -3, (-3)², (-3)⁻², (-3)⁻¹ (crescente)",
+    "options": ["-3, (-3)⁻¹, (-3)⁻², (-3)²", "(-3)², (-3)⁻², (-3)⁻¹, -3", "-3, (-3)⁻², (-3)⁻¹, (-3)²", "(-3)⁻¹, -3, (-3)², (-3)⁻²"],
+    "correct": "-3, (-3)⁻¹, (-3)⁻², (-3)²"
+  },
+  {
+    "id": 66,
+    "text": "Qual é a metade de 2²⁰?",
+    "options": ["2¹⁰", "2¹⁹", "2⁹", "2²¹"],
+    "correct": "2¹⁹"
+  },
+  {
+    "id": 67,
+    "text": "Como se lê a razão 1/2?",
+    "options": ["1 para 2", "2 para 1", "1 para 1", "2 para 2"],
+    "correct": "1 para 2"
+  },
+  {
+    "id": 68,
+    "text": "Se 1 xícara de leite para 2 de farinha, e usar 1 farinha, quanto de leite?",
+    "options": ["1/4", "1/2", "1", "2"],
+    "correct": "1/2"
+  },
+  {
+    "id": 69,
+    "text": "Qual a propriedade que permite trocar ordem dos fatores?",
+    "options": ["Associativa", "Comutativa", "Distributiva", "Elemento neutro"],
+    "correct": "Comutativa"
+  },
+  {
+    "id": 70,
+    "text": "Qual a propriedade que permite agrupar fatores de outra forma?",
+    "options": ["Comutativa", "Associativa", "Distributiva", "Fechamento"],
+    "correct": "Associativa"
+  },
+  {
+    "id": 71,
+    "text": "Simplify: 11.13.9 / 12.5.7 (fator comum 3)",
+    "options": ["11.13.3 / 4.5.7", "11.13.9 / 4.5.7", "11.13.3 / 12.5.7", "11.13 / 4.5.7"],
+    "correct": "11.13.3 / 4.5.7"
+  },
+  {
+    "id": 72,
+    "text": "O que significa (-5)³(-1/5)?",
+    "options": ["(-5)²", "(-5)⁴", "5²", "-5²"],
+    "correct": "(-5)²"
+  },
+  {
+    "id": 73,
+    "text": "Se uma fração negativa é maior que -1, o que é maior: oposto ou inverso?",
+    "options": ["Oposto", "Inverso", "Iguais", "Depende"],
+    "correct": "Inverso"
+  },
+  {
+    "id": 74,
+    "text": "Calcule: (-4/3) : (-1/3)",
+    "options": ["4", "-4", "1", "-1"],
+    "correct": "4"
+  },
+  {
+    "id": 75,
+    "text": "Calcule: ( -121/75 ) : ( -132/225 )",
+    "options": ["121/132", "121/75", "11/4", "4/11"],
+    "correct": "11/4"
+  },
+  {
+    "id": 76,
+    "text": "Qual o resultado de ( -1/6 ) + ( -2/3 ) - ( -4/9 )?",
+    "options": ["4/9", "-4/9", "2/9", "-2/9"],
+    "correct": "4/9"
+  },
+  {
+    "id": 77,
+    "text": "Calcule: 6/5 - (14/15 - 21/10)",
+    "options": ["9/16", "18/32", "3/4", "9/32"],
+    "correct": "9/16"
+  },
+  {
+    "id": 78,
+    "text": "Calcule: -(-1/4) + (-2/6) - (-5/12)",
+    "options": ["25/12", "5/12", "1/2", "1/4"],
+    "correct": "25/12"
+  },
+  {
+    "id": 79,
+    "text": "Qual o valor de (-1/2 × 2/3)⁻⁴?",
+    "options": ["(-1/3)⁻⁴", "(-1/3)⁴", "(1/3)⁻⁴", "(1/3)⁴"],
+    "correct": "(-1/3)⁻⁴"
+  },
+  {
+    "id": 80,
+    "text": "Calcule: (-12/15)⁻²",
+    "options": ["(15/12)²", "(12/15)²", "(-15/12)²", "(-12/15)²"],
+    "correct": "(-15/12)²"
+  },
+  {
+    "id": 81,
+    "text": "Quanto é (-13/14)⁰?",
+    "options": ["0", "1", "-1", "13/14"],
+    "correct": "1"
+  },
+  {
+    "id": 82,
+    "text": "Calcule: ( 2/3 )⁻¹ × ( 2/3 )¹⁻¹",
+    "options": ["2/3", "3/2", "1", "0"],
+    "correct": "3/2"
+  },
+  {
+    "id": 83,
+    "text": "O que significa a frase 'os eixos dividem o triângulo em 3 partes'?",
+    "options": ["Simetria de rotação 120°", "Simetria de 90°", "Simetria de 60°", "Simetria de 180°"],
+    "correct": "Simetria de rotação 120°"
+  },
+  {
+    "id": 84,
+    "text": "Em um favo de mel, os eixos de simetria dos hexágonos são:",
+    "options": ["Paralelos", "Perpendiculares", "Convergentes", "Aleatórios"],
+    "correct": "Paralelos"
+  },
+  {
+    "id": 85,
+    "text": "Na figura com retas paralelas cortadas por transversal, os ângulos alternos internos são:",
+    "options": ["Diferentes", "Iguais", "Complementares", "Suplementares"],
+    "correct": "Iguais"
+  },
+  {
+    "id": 86,
+    "text": "Se a = c e d = b, que relação é essa?",
+    "options": ["Ângulos correspondentes", "Ângulos opostos pelo vértice", "Ângulos colaterais", "Ângulos alternos externos"],
+    "correct": "Ângulos opostos pelo vértice"
+  },
+  {
+    "id": 87,
+    "text": "Qual a soma dos ângulos internos de um triângulo?",
+    "options": ["90°", "180°", "270°", "360°"],
+    "correct": "180°"
+  },
+  {
+    "id": 88,
+    "text": "Um hexágono regular tem quantos eixos de simetria?",
+    "options": ["3", "4", "6", "8"],
+    "correct": "6"
+  },
+  {
+    "id": 89,
+    "text": "O que significa 'fração irredutível'?",
+    "options": ["Não pode simplificar mais", "Pode simplificar", "Numerador e denominador iguais", "Fração negativa"],
+    "correct": "Não pode simplificar mais"
+  },
+  {
+    "id": 90,
+    "text": "Qual é a forma irredutível de 144/225?",
+    "options": ["48/75", "16/25", "12/15", "72/112"],
+    "correct": "16/25"
+  },
+  {
+    "id": 91,
+    "text": "Decomponha 145/144 em fatores primos",
+    "options": ["(5×29)/(12²)", "5×29/144", "145/12²", "29/28"],
+    "correct": "(5×29)/(12²)"
+  },
+  {
+    "id": 92,
+    "text": "Se (-8/63) : (-16/36), qual é o resultado?",
+    "options": ["2/7", "-2/7", "7/2", "-7/2"],
+    "correct": "2/7"
+  },
+  {
+    "id": 93,
+    "text": "Calcule: (-108/16) : (-27/32)",
+    "options": ["8", "-8", "4", "-4"],
+    "correct": "8"
+  },
+  {
+    "id": 94,
+    "text": "O que significa uma rotação de 1/4 de volta em graus?",
+    "options": ["45°", "90°", "180°", "270°"],
+    "correct": "90°"
+  },
+  {
+    "id": 95,
+    "text": "Um quadrado tem simetria de rotação de quantos graus?",
+    "options": ["45°", "90°", "120°", "180°"],
+    "correct": "90°"
+  },
+  {
+    "id": 96,
+    "text": "Se 1/3 de 36 framboesas foram comidas, quantas restam?",
+    "options": ["12", "24", "18", "30"],
+    "correct": "24"
+  },
+  {
+    "id": 97,
+    "text": "Qual a fração que sobrou para Antônio se gasta 2/5 e 1/6 da mesada?",
+    "options": ["13/30", "17/30", "7/30", "11/30"],
+    "correct": "13/30"
+  },
+  {
+    "id": 98,
+    "text": "Se (-4/16) + (-8/32) + (-32/64), qual o resultado?",
+    "options": ["-1", "-9/37", "9/37", "1"],
+    "correct": "-1"
+  },
+  {
+    "id": 99,
+    "text": "Calcule: (-3/5) - (-2/4 - 2/3)",
+    "options": ["20/3", "-20/3", "5/12", "-5/12"],
+    "correct": "20/3"
+  },
+  {
+    "id": 100,
+    "text": "Segundo o Salmo 8.3-4, o que revela ordem e harmonia do Criador?",
+    "options": ["Os números", "As frações", "Os céus e estrelas", "Os ângulos"],
+    "correct": "Os céus e estrelas"
   }
 ]
