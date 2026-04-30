@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "text": "Quanto é 15 × 4?",
+    "options": ["45", "60", "50", "55"],
+    "correct": "60"
+  },
+  {
+    "id": 2,
+    "text": "Qual destes é um verbo?",
+    "options": ["Casa", "Correr", "Bonito", "Lentamente"],
+    "correct": "Correr"
+  },
+  {
+    "id": 3,
+    "text": "Quem escreveu 'Dom Casmurro'?",
+    "options": ["José de Alencar", "Machado de Assis", "Carlos Drummond", "Monteiro Lobato"],
+    "correct": "Machado de Assis"
+  },
+  {
+    "id": 4,
+    "text": "Qual a capital do Brasil?",
+    "options": ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
+    "correct": "Brasília"
+  },
+  {
+    "id": 5,
+    "text": "O que é fotossíntese?",
+    "options": ["Respiração vegetal", "Produção de alimento pelas plantas", "Reprodução das plantas", "Absorção de água"],
+    "correct": "Produção de alimento pelas plantas"
+  },
+  {
+    "id": 6,
+    "text": "Complete: 'Eu _____ feliz ontem'.",
+    "options": ["estive", "estava", "fui", "sou"],
+    "correct": "estive"
+  },
+  {
+    "id": 7,
+    "text": "Quanto é 100 ÷ 4?",
+    "options": ["20", "25", "30", "40"],
+    "correct": "25"
+  },
+  {
+    "id": 8,
+    "text": "Qual a camada mais externa da Terra?",
+    "options": ["Manto", "Núcleo", "Crosta", "Litosfera"],
+    "correct": "Crosta"
+  },
+  {
+    "id": 9,
+    "text": "Quem pintou a Mona Lisa?",
+    "options": ["Van Gogh", "Picasso", "Da Vinci", "Monet"],
+    "correct": "Da Vinci"
+  },
+  {
+    "id": 10,
+    "text": "Qual é o maior planeta do Sistema Solar?",
+    "options": ["Marte", "Saturno", "Júpiter", "Netuno"],
+    "correct": "Júpiter"
+  }
+]
